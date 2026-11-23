@@ -1,0 +1,4 @@
+dataset,accuracy_pct,f1_score_pct,auc_roc,note
+MIT-BIH Arrhythmia (Test),79.29362880886427,70.12987012987013,0.9405088012002225,In-domain test cohort
+PTB-XL 12-Lead (Unseen),78.80886426592798,69.58250497017893,0.9397935824312265,Zero-shot transfer @ 360 Hz
+Performance Retention,99.3886462882096,99.21949782784773,99.92395405890053,Mean retention: 99.5%

@@ -1,0 +1,39 @@
+system:
+  seed: 42
+  num_iot_monitors: 200
+  num_edge_nodes: 25
+  num_cloud_instances: 2
+  default_arrival_rate: 20.0  # lambda in tasks/sec (peak load)
+  time_window_seconds: 5.0
+  sampling_rate_hz: 360
+
+edge_nodes:
+  mips_range: [800.0, 4500.0]
+  ram_gb_range: [16.0, 64.0]
+  bandwidth_mbps_range: [10.0, 50.0]
+  wireless_tx_latency_ms_range: [3.0, 12.0]
+  idle_power_w_range: [40.0, 80.0]
+  active_power_multiplier: 2.2
+  weight_cpu: 0.5
+  weight_ram: 0.5
+
+cloud_instances:
+  mips_range: [12000.0, 35000.0]
+  ram_gb: 128.0
+  bandwidth_mbps_range: [100.0, 1000.0]
+  wan_transit_latency_ms_range: [45.0, 120.0]
+  idle_power_w_range: [180.0, 350.0]
+  active_power_multiplier: 2.0
+
+tasks:
+  payload_bytes_default: 3600
+  cycles_range: [5000000, 20000000]  # 5e6 to 2e7 cycles
+  urgent_deadline_ms_range: [100.0, 150.0]
+  routine_deadline_ms_range: [400.0, 800.0]
+  risk_urgent_threshold: 0.50
+
+reward:
+  alpha_latency: 0.35
+  beta_miss: 0.25
+  gamma_risk: 0.30
+  eta_utilization: 0.10

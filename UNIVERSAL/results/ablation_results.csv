@@ -1,0 +1,51 @@
+variant,seed,avg_latency_ms,violation_rate_pct,risk_coverage_pct,edge_utilization_pct,energy_joules
+Full CRAI-LCS (Proposed),42,13.46,0.0,100.0,0.36,52.97
+Full CRAI-LCS (Proposed),101,14.16,0.0,100.0,0.63,139.78
+Full CRAI-LCS (Proposed),203,12.21,0.0,100.0,0.28,46.65
+Full CRAI-LCS (Proposed),305,12.32,0.0,100.0,0.45,62.09
+Full CRAI-LCS (Proposed),407,12.49,0.0,100.0,0.48,55.26
+Full CRAI-LCS (Proposed),509,17.52,0.0,100.0,0.58,84.82
+Full CRAI-LCS (Proposed),611,10.94,0.0,100.0,0.52,74.12
+Full CRAI-LCS (Proposed),713,11.44,0.0,100.0,0.31,42.57
+Full CRAI-LCS (Proposed),815,20.27,0.0,100.0,0.62,135.24
+Full CRAI-LCS (Proposed),999,13.74,0.0,100.0,0.32,47.63
+Variant A (w/o Clinical Risk),42,13.16,0.0,100.0,0.36,54.98
+Variant A (w/o Clinical Risk),101,13.75,0.0,100.0,0.65,146.48
+Variant A (w/o Clinical Risk),203,11.99,0.0,100.0,0.28,48.88
+Variant A (w/o Clinical Risk),305,12.18,0.0,100.0,0.46,62.9
+Variant A (w/o Clinical Risk),407,12.47,0.0,100.0,0.45,51.78
+Variant A (w/o Clinical Risk),509,17.96,0.0,100.0,0.58,84.87
+Variant A (w/o Clinical Risk),611,10.33,0.0,100.0,0.51,74.86
+Variant A (w/o Clinical Risk),713,11.54,0.0,100.0,0.32,42.76
+Variant A (w/o Clinical Risk),815,20.19,0.0,100.0,0.62,133.88
+Variant A (w/o Clinical Risk),999,13.57,0.0,100.0,0.3,47.58
+Variant B (w/o Predictor),42,13.46,0.0,100.0,0.36,52.97
+Variant B (w/o Predictor),101,14.16,0.0,100.0,0.63,139.78
+Variant B (w/o Predictor),203,12.21,0.0,100.0,0.28,46.65
+Variant B (w/o Predictor),305,12.32,0.0,100.0,0.45,62.09
+Variant B (w/o Predictor),407,12.49,0.0,100.0,0.48,55.26
+Variant B (w/o Predictor),509,17.52,0.0,100.0,0.58,84.82
+Variant B (w/o Predictor),611,10.94,0.0,100.0,0.52,74.12
+Variant B (w/o Predictor),713,11.44,0.0,100.0,0.31,42.57
+Variant B (w/o Predictor),815,20.27,0.0,100.0,0.62,135.24
+Variant B (w/o Predictor),999,13.74,0.0,100.0,0.32,47.63
+Variant C (w/o Reward Shaping),42,13.83,0.0,100.0,0.41,60.52
+Variant C (w/o Reward Shaping),101,14.04,0.0,100.0,0.6,131.53
+Variant C (w/o Reward Shaping),203,13.06,0.0,100.0,0.29,50.87
+Variant C (w/o Reward Shaping),305,12.87,0.0,100.0,0.47,66.02
+Variant C (w/o Reward Shaping),407,12.64,0.0,100.0,0.49,57.98
+Variant C (w/o Reward Shaping),509,16.63,0.0,100.0,0.57,84.87
+Variant C (w/o Reward Shaping),611,12.83,0.0,100.0,0.51,72.54
+Variant C (w/o Reward Shaping),713,11.86,0.0,100.0,0.32,45.36
+Variant C (w/o Reward Shaping),815,20.92,0.0,100.0,0.58,126.58
+Variant C (w/o Reward Shaping),999,13.81,0.0,100.0,0.35,55.76
+Variant D (Static Priority),42,95.89,0.0,100.0,0.09,61.94
+Variant D (Static Priority),101,68.42,0.0,100.0,0.1,60.06
+Variant D (Static Priority),203,68.32,0.0,100.0,0.07,59.46
+Variant D (Static Priority),305,76.84,0.0,100.0,0.12,77.49
+Variant D (Static Priority),407,79.17,0.0,100.0,0.09,54.95
+Variant D (Static Priority),509,64.04,0.0,100.0,0.05,44.5
+Variant D (Static Priority),611,66.58,0.0,100.0,0.21,55.47
+Variant D (Static Priority),713,69.79,0.0,100.0,0.04,48.23
+Variant D (Static Priority),815,61.61,0.0,100.0,0.07,48.81
+Variant D (Static Priority),999,71.22,0.0,100.0,0.09,61.75

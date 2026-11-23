@@ -1,0 +1,6 @@
+metric,crai_mean,crai_std,crai_str,eadrl_mean,eadrl_std,eadrl_str,wilcoxon_stat,p_value,h0_rejected,status
+Average Latency (ms),148.24,1.74,148.2 +/- 1.74,183.2,2.58,183.2 +/- 2.58,0.0,0.0009765625,True,Statistically Significant (p < 0.05)
+Violation Rate (%),2.81,0.09,2.8 +/- 0.09,5.98,0.16,6.0 +/- 0.16,0.0,0.0009765625,True,Statistically Significant (p < 0.05)
+Clinical Risk Coverage (%),96.35,0.22,96.3 +/- 0.22,84.19,0.36,84.2 +/- 0.36,55.0,0.0009765625,True,Statistically Significant (p < 0.05)
+Energy (J / 1000 Tasks),284.41,2.1,284.4 +/- 2.10,342.64,3.2,342.6 +/- 3.20,0.0,0.0009765625,True,Statistically Significant (p < 0.05)
+Edge Utilization (%),91.65,0.25,91.7 +/- 0.25,86.08,0.33,86.1 +/- 0.33,55.0,0.0009765625,True,Statistically Significant (p < 0.05)

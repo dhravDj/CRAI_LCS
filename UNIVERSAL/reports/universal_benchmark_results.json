@@ -1,0 +1,33 @@
+{
+  "num_tasks": 3000,
+  "u_crai_lcs": {
+    "name": "U-CRAI-LCS (Proposed)",
+    "avg_latency_ms": 23.531779048647383,
+    "p95_latency_ms": 63.98144725009872,
+    "violation_rate": 0.0,
+    "urgent_violation_rate": 0.0,
+    "total_energy_j": 4865.73761331435,
+    "throughput_tps": 30239.91014167802,
+    "fail_safe_preemptions": 1000,
+    "gating_ratio_pct": 67.60000000000001,
+    "battery_extension_factor": 2.03
+  },
+  "cloud_only": {
+    "name": "Cloud-Only",
+    "avg_latency_ms": 118.90716529442297,
+    "p95_latency_ms": 120.4069414988307,
+    "violation_rate": 0.0,
+    "urgent_violation_rate": 0.0,
+    "total_energy_j": 2037.1475890176162,
+    "fail_safe_preemptions": 0
+  },
+  "greedy_edge": {
+    "name": "Greedy Edge-Only (Round-Robin)",
+    "avg_latency_ms": 20.434068919050905,
+    "p95_latency_ms": 46.93213099376527,
+    "violation_rate": 0.0,
+    "urgent_violation_rate": 0.0,
+    "total_energy_j": 3275.12301453172,
+    "fail_safe_preemptions": 0
+  }
+}
